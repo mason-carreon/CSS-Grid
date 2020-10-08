@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+#songcovers{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#songcovers {
+    display: grid;
+    grid-auto-rows: 400px;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap:7em; 
+}
+
+img{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+img {
+  border: 5px solid #000000;
+}
+
+.navbar{
+      display:grid;
+      grid-template-columns: repeat(5, 1fr);
+      /*
+      grid-column-gap:1em;
+      grid-row-gap:1em;
+      */
+      grid-gap:.25em;
+      border: 5px solid #343434;
+    }
+
+    .navbar > div{
+      background:#343434;
+      padding:1em;
+      text-align: center;
+      font-family: Arial
+    }
+
+a:link {
+    color: white;  
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.aboutme{
+    text-align: center;
+    font-family: Arial
+}
+
+.centertext {
+  padding: 400px 0;
+  text-align: center;
+  font-family: Arial
+}

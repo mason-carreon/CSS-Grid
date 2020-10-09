@@ -46,25 +46,25 @@ img {
       font-family: Arial
     }
 
-a:link {
+.navbar a:link {
     color: white;  
     background-color: transparent;
     text-decoration: none;
 }
 
-a:visited {
+.navbar a:visited {
   color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+.navbar a:hover {
   color: white;
   background-color: transparent;
   text-decoration: underline;
 }
 
-a:active {
+.navbar a:active {
   color: white;
   background-color: transparent;
   text-decoration: none;
@@ -80,3 +80,9 @@ a:active {
   text-align: center;
   font-family: Arial
 }
+
+
+ p {
+    font-family: Arial
+}
+ 

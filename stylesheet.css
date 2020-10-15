@@ -43,7 +43,7 @@ img {
       background:#343434;
       padding:1em;
       text-align: center;
-      font-family: Arial
+      font-family: 'Staatliches', cursive;
     }
 
 .navbar a:link {
@@ -72,17 +72,56 @@ img {
 
 .aboutme{
     text-align: center;
-    font-family: Arial
+    font-family: 'Staatliches', cursive;
 }
 
 .centertext {
   padding: 400px 0;
   text-align: center;
-  font-family: Arial
+  font-family: 'Staatliches', cursive;
 }
 
 
  p {
-    font-family: Arial
+    font-family: 'Staatliches', cursive;
 }
- 
+
+.songlinks{
+    text-align: center;
+}
+
+.songlinks a:link {
+    color: black;  
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.songlinks a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.songlinks a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.songlinks a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a{
+    font-family: 'Staatliches', cursive;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+}
+
+.emaillistpage{
+    padding: 100px 0;
+    text-align: center;
+}
